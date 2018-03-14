@@ -1,0 +1,20 @@
+{
+  "name": "nodeoauthmongo",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "prepareEnv": "node setup.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "body-parser": "~1.0.0",
+    "dotenv": "^5.0.1",
+    "express": "4.x",
+    "jsonwebtoken": "latest",
+    "mongoose": "latest",
+    "morgan": "latest"
+  },
+  "engines": {
+    "node": ">=9.5.0"
+  }
+}
